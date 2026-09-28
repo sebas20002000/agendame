@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 660" role="img" aria-label="Vista mensual del calendario">
+  <rect width="1280" height="660" fill="#FCFBF7"/>
+
+  <text x="64" y="86" font-family="Georgia, serif" font-size="30" fill="#1E1C19">Octubre 2026</text>
+
+  <g font-family="Work Sans, Arial, sans-serif" font-size="14" fill="#6f6a5f">
+    <text x="128" y="140" text-anchor="middle">LUN</text>
+    <text x="304" y="140" text-anchor="middle">MAR</text>
+    <text x="480" y="140" text-anchor="middle">MIE</text>
+    <text x="656" y="140" text-anchor="middle">JUE</text>
+    <text x="832" y="140" text-anchor="middle">VIE</text>
+    <text x="1008" y="140" text-anchor="middle">SAB</text>
+    <text x="1184" y="140" text-anchor="middle">DOM</text>
+  </g>
+
+  <!-- lineas de grilla: 7 columnas x 4 filas -->
+  <g stroke="#e2ded2" stroke-width="1">
+    <line x1="64" y1="158" x2="1216" y2="158"/>
+    <line x1="64" y1="270" x2="1216" y2="270"/>
+    <line x1="64" y1="382" x2="1216" y2="382"/>
+    <line x1="64" y1="494" x2="1216" y2="494"/>
+    <line x1="64" y1="600" x2="1216" y2="600"/>
+    <line x1="64"   y1="158" x2="64"   y2="600"/>
+    <line x1="240"  y1="158" x2="240"  y2="600"/>
+    <line x1="416"  y1="158" x2="416"  y2="600"/>
+    <line x1="592"  y1="158" x2="592"  y2="600"/>
+    <line x1="768"  y1="158" x2="768"  y2="600"/>
+    <line x1="944"  y1="158" x2="944"  y2="600"/>
+    <line x1="1120" y1="158" x2="1120" y2="600"/>
+    <line x1="1216" y1="158" x2="1216" y2="600"/>
+  </g>
+
+  <!-- numeros de dia -->
+  <g font-family="Work Sans, Arial, sans-serif" font-size="14" fill="#1E1C19">
+    <text x="80" y="182">5</text><text x="256" y="182">6</text><text x="432" y="182">7</text>
+    <text x="608" y="182">8</text><text x="784" y="182">9</text><text x="960" y="182">10</text><text x="1136" y="182">11</text>
+
+    <text x="80" y="294">12</text><text x="256" y="294">13</text><text x="432" y="294">14</text>
+    <text x="608" y="294">15</text><text x="784" y="294">16</text><text x="960" y="294">17</text><text x="1136" y="294">18</text>
+
+    <text x="80" y="406">19</text><text x="256" y="406">20</text><text x="432" y="406">21</text>
+    <text x="608" y="406">22</text><text x="784" y="406">23</text><text x="960" y="406">24</text><text x="1136" y="406">25</text>
+
+    <text x="80" y="518">26</text><text x="256" y="518">27</text><text x="432" y="518">28</text>
+    <text x="608" y="518">29</text><text x="784" y="518">30</text><text x="960" y="518">31</text>
+  </g>
+
+  <!-- turnos disponibles -->
+  <rect x="216" y="192" width="72" height="20" rx="5" fill="#5F7A62"/>
+  <rect x="568" y="192" width="72" height="20" rx="5" fill="#5F7A62"/>
+  <rect x="920" y="192" width="72" height="20" rx="5" fill="#5F7A62"/>
+
+  <rect x="64"   y="304" width="72" height="20" rx="5" fill="#5F7A62"/>
+  <rect x="744"  y="304" width="72" height="20" rx="5" fill="none" stroke="#C9603F" stroke-width="1.5"/>
+  <rect x="1112" y="304" width="72" height="20" rx="5" fill="#5F7A62"/>
+
+  <rect x="216" y="416" width="72" height="20" rx="5" fill="none" stroke="#C9603F" stroke-width="1.5"/>
+  <rect x="568" y="416" width="72" height="20" rx="5" fill="#5F7A62"/>
+
+  <rect x="392" y="528" width="72" height="20" rx="5" fill="#5F7A62"/>
+  <rect x="920" y="528" width="72" height="20" rx="5" fill="none" stroke="#C9603F" stroke-width="1.5"/>
+</svg>

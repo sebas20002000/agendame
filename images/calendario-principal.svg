@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Captura de un calendario con horarios disponibles y reservados">
+  <rect width="800" height="600" fill="#FCFBF7"/>
+
+  <!-- barra de ventana -->
+  <rect x="0" y="0" width="800" height="44" fill="#F1EEE4"/>
+  <circle cx="24" cy="22" r="6" fill="#B9B4A7"/>
+  <circle cx="46" cy="22" r="6" fill="#B9B4A7"/>
+  <circle cx="68" cy="22" r="6" fill="#B9B4A7"/>
+  <text x="400" y="27" text-anchor="middle" font-family="Work Sans, Arial, sans-serif" font-size="14" fill="#4a463f">agendame.app/tu-calendario</text>
+
+  <!-- encabezado del mes -->
+  <text x="40" y="90" font-family="Georgia, serif" font-size="28" fill="#1E1C19">Octubre 2026</text>
+  <rect x="700" y="66" width="30" height="30" rx="6" fill="none" stroke="#B9B4A7" stroke-width="1.5"/>
+  <path d="M713 76 L718 81 L713 86" stroke="#4a463f" stroke-width="2" fill="none"/>
+  <rect x="738" y="66" width="30" height="30" rx="6" fill="none" stroke="#B9B4A7" stroke-width="1.5"/>
+  <path d="M756 76 L751 81 L756 86" stroke="#4a463f" stroke-width="2" fill="none"/>
+
+  <!-- dias de la semana -->
+  <g font-family="Work Sans, Arial, sans-serif" font-size="13" fill="#6f6a5f">
+    <text x="75"  y="130" text-anchor="middle">LUN</text>
+    <text x="180" y="130" text-anchor="middle">MAR</text>
+    <text x="285" y="130" text-anchor="middle">MIE</text>
+    <text x="390" y="130" text-anchor="middle">JUE</text>
+    <text x="495" y="130" text-anchor="middle">VIE</text>
+    <text x="600" y="130" text-anchor="middle">SAB</text>
+    <text x="705" y="130" text-anchor="middle">DOM</text>
+  </g>
+
+  <!-- grilla de semanas -->
+  <g stroke="#e2ded2" stroke-width="1">
+    <line x1="40" y1="145" x2="760" y2="145"/>
+    <line x1="40" y1="270" x2="760" y2="270"/>
+    <line x1="40" y1="395" x2="760" y2="395"/>
+    <line x1="40" y1="520" x2="760" y2="520"/>
+  </g>
+
+  <!-- numeros de dia, semana 1 -->
+  <g font-family="Work Sans, Arial, sans-serif" font-size="14" fill="#1E1C19">
+    <text x="55" y="165">5</text><text x="160" y="165">6</text><text x="265" y="165">7</text>
+    <text x="370" y="165">8</text><text x="475" y="165">9</text><text x="580" y="165">10</text><text x="685" y="165">11</text>
+  </g>
+
+  <!-- turnos disponibles (salvia) -->
+  <rect x="150" y="175" width="60" height="22" rx="5" fill="#5F7A62"/>
+  <text x="180" y="190" text-anchor="middle" font-family="Work Sans, Arial, sans-serif" font-size="11" fill="#FCFBF7">10:00</text>
+  <rect x="360" y="175" width="60" height="22" rx="5" fill="#5F7A62"/>
+  <text x="390" y="190" text-anchor="middle" font-family="Work Sans, Arial, sans-serif" font-size="11" fill="#FCFBF7">15:00</text>
+  <rect x="465" y="175" width="60" height="22" rx="5" fill="#5F7A62"/>
+  <text x="495" y="190" text-anchor="middle" font-family="Work Sans, Arial, sans-serif" font-size="11" fill="#FCFBF7">09:00</text>
+
+  <!-- turno reservado (terracota) -->
+  <rect x="255" y="175" width="60" height="22" rx="5" fill="none" stroke="#C9603F" stroke-width="1.5"/>
+  <text x="285" y="190" text-anchor="middle" font-family="Work Sans, Arial, sans-serif" font-size="11" fill="#C9603F">11:30</text>
+
+  <!-- numeros de dia, semana 2 -->
+  <g font-family="Work Sans, Arial, sans-serif" font-size="14" fill="#1E1C19">
+    <text x="55" y="290">12</text><text x="160" y="290">13</text><text x="265" y="290">14</text>
+    <text x="370" y="290">15</text><text x="475" y="290">16</text><text x="580" y="290">17</text><text x="685" y="290">18</text>
+  </g>
+
+  <rect x="45" y="300" width="60" height="22" rx="5" fill="#5F7A62"/>
+  <text x="75" y="315" text-anchor="middle" font-family="Work Sans, Arial, sans-serif" font-size="11" fill="#FCFBF7">14:00</text>
+  <rect x="570" y="300" width="60" height="22" rx="5" fill="none" stroke="#C9603F" stroke-width="1.5"/>
+  <text x="600" y="315" text-anchor="middle" font-family="Work Sans, Arial, sans-serif" font-size="11" fill="#C9603F">16:00</text>
+  <rect x="675" y="300" width="60" height="22" rx="5" fill="#5F7A62"/>
+  <text x="705" y="315" text-anchor="middle" font-family="Work Sans, Arial, sans-serif" font-size="11" fill="#FCFBF7">08:30</text>
+
+  <!-- numeros de dia, semana 3 -->
+  <g font-family="Work Sans, Arial, sans-serif" font-size="14" fill="#1E1C19">
+    <text x="55" y="415">19</text><text x="160" y="415">20</text><text x="265" y="415">21</text>
+    <text x="370" y="415">22</text><text x="475" y="415">23</text><text x="580" y="415">24</text><text x="685" y="415">25</text>
+  </g>
+
+  <rect x="150" y="425" width="60" height="22" rx="5" fill="none" stroke="#C9603F" stroke-width="1.5"/>
+  <text x="180" y="440" text-anchor="middle" font-family="Work Sans, Arial, sans-serif" font-size="11" fill="#C9603F">13:00</text>
+  <rect x="360" y="425" width="60" height="22" rx="5" fill="#5F7A62"/>
+  <text x="390" y="440" text-anchor="middle" font-family="Work Sans, Arial, sans-serif" font-size="11" fill="#FCFBF7">10:30</text>
+
+  <!-- leyenda -->
+  <circle cx="45" cy="560" r="7" fill="#5F7A62"/>
+  <text x="60" y="565" font-family="Work Sans, Arial, sans-serif" font-size="13" fill="#4a463f">Disponible</text>
+  <circle cx="180" cy="560" r="7" fill="none" stroke="#C9603F" stroke-width="1.5"/>
+  <text x="195" y="565" font-family="Work Sans, Arial, sans-serif" font-size="13" fill="#4a463f">Reservado</text>
+</svg>

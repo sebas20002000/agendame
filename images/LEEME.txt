@@ -1,6 +1,0 @@
-Colocá acá estas 4 imágenes (mismos nombres):
-
-calendario-principal.jpg  -> sección Presentación
-vista-mensual.jpg         -> Galería (grande)
-enlace-compartido.jpg     -> Galería
-reserva-confirmada.jpg    -> Galería
