@@ -74,19 +74,34 @@
 
         <section id="galeria" class="galeria">
             <h2>Cómo se ve</h2>
-            <div class="galeria-grilla">
-                <figure class="galeria-grande">
-                    <img src="images/vista-mensual.svg" alt="Vista mensual del calendario">
-                    <figcaption>Vista mensual</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/link-compartido.svg" alt="Pantalla para copiar el link del calendario">
-                    <figcaption>link compartido</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/reserva-confirmada.svg" alt="Mensaje de reserva confirmada">
-                    <figcaption>Reserva confirmada</figcaption>
-                </figure>
+            <div class="tarjetas">
+                <article class="tarjeta tarjeta-destacada">
+                    <img src="images/vista-mensual.svg" alt="Vista mensual del calendario" class="tarjeta-imagen">
+                    <div class="tarjeta-contenido">
+                        <h3>Vista mensual</h3>
+                        <p class="tarjeta-descripcion">Todo el mes de un vistazo, con tus horarios libres y las reservas
+                            ya tomadas.</p>
+                        <a href="images/vista-mensual.svg" class="boton">Ver vista mensual</a>
+                    </div>
+                </article>
+                <article class="tarjeta">
+                    <img src="images/link-compartido.svg" alt="Pantalla para copiar el link del calendario"
+                        class="tarjeta-imagen">
+                    <div class="tarjeta-contenido">
+                        <h3>Link compartido</h3>
+                        <p class="tarjeta-descripcion">Copiás tu link y lo mandás a quien quieras.</p>
+                        <a href="images/link-compartido.svg" class="boton">Ver link</a>
+                    </div>
+                </article>
+                <article class="tarjeta">
+                    <img src="images/reserva-confirmada.svg" alt="Mensaje de reserva confirmada"
+                        class="tarjeta-imagen">
+                    <div class="tarjeta-contenido">
+                        <h3>Reserva confirmada</h3>
+                        <p class="tarjeta-descripcion">Quien reserva recibe los detalles por correo.</p>
+                        <a href="images/reserva-confirmada.svg" class="boton">Ver reserva</a>
+                    </div>
+                </article>
             </div>
         </section>
 
@@ -128,7 +143,7 @@
     </main>
 
     <footer class="footer">
-        <div>
+        <div class="footer-contenido">
             <p class="logo">Agendáme</p>
             <p class="frase">“Coordinar no debería costar diez mensajes.”</p>
         </div>
