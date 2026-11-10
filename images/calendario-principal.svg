@@ -11,9 +11,9 @@
   <!-- encabezado del mes -->
   <text x="40" y="90" font-family="Georgia, serif" font-size="28" fill="#1E1C19">Octubre 2026</text>
   <rect x="700" y="66" width="30" height="30" rx="6" fill="none" stroke="#B9B4A7" stroke-width="1.5"/>
-  <path d="M713 76 L718 81 L713 86" stroke="#4a463f" stroke-width="2" fill="none"/>
+  <path d="M718 76 L713 81 L718 86" stroke="#4a463f" stroke-width="2" fill="none"/>
   <rect x="738" y="66" width="30" height="30" rx="6" fill="none" stroke="#B9B4A7" stroke-width="1.5"/>
-  <path d="M756 76 L751 81 L756 86" stroke="#4a463f" stroke-width="2" fill="none"/>
+  <path d="M751 76 L756 81 L751 86" stroke="#4a463f" stroke-width="2" fill="none"/>
 
   <!-- dias de la semana -->
   <g font-family="Work Sans, Arial, sans-serif" font-size="13" fill="#6f6a5f">
